@@ -1,0 +1,110 @@
+*{
+    margin:0; 
+    padding: 0;
+}
+#caroussel{
+    width: 100%;
+    height: 422px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+div#slider { 
+    width: 60%; 
+}
+div#slider figure {    
+    position: relative; 
+    width: 300%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    text-align: left;
+    box-sizing: 0;
+}
+div#slider figure img { 
+    width: 20%; height: 60%; float: left;
+}
+div#slider {
+     width: 100%; overflow: hidden 
+}
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+}
+div#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    left: 0;
+    text-align: left;
+    animation: 25s slidy infinite;
+}
+.netprésentation {
+    margin-top: 5%;
+    align-items: center;
+    margin-left: 8%;
+    font-size: 400%;
+    margin-right: 8%;
+    color: black;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+}
+.nprésentation {
+    margin-right: 3%;
+    transition: 1.3s;
+    
+}
+.nprésentation:hover {
+    transform: scale(1.1);
+}
+.spotprésentation {
+    display: flex;
+    margin-top: 10%;
+    align-items: center;
+    margin-left: 20%;
+    font-size: 400%;
+    margin-right: 10%;
+}
+.sprésentation {
+    margin-left: 5%;
+    transition: 1.3s;
+    width: 50%;
+}
+.sprésentation:hover {
+    transform:scale(1.1);
+}
+.amaprésentation {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 18%;
+    text-align: center;
+    font-size: 400%;
+    margin-top: 10%;
+}
+.aprésentation {
+    transition: 1.2s;
+}
+.aprésentation:hover {
+    transform: scale(1.1);
+}
+.bas {
+    background: rgba(100,223,217);
+    background: radial-gradient(circle, rgba(100,223,217,1) 28%, rgba(146,186,234,1) 78%);
+    margin-top: 4%;
+    padding-bottom: 7%;
+}
+.bas1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+}

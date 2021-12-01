@@ -1,0 +1,84 @@
+* {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.navigation {
+    display: flex;
+    background: rgb(127,50,187);
+    background: linear-gradient(0deg, rgba(127,50,187,1) 20%, rgba(210,68,62,1) 87%);
+    height: 110px;
+    justify-content: space-between;
+    align-items: center;
+}
+.Ama {
+    width: 80px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.Twitch {
+    width: 120px;
+    margin-top: 10px;
+}
+.audible {
+    width: 170px;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+.Prime {
+    margin-left: 35%;
+    margin-right: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    font-size: 160%; 
+    font-family: fantasy;
+}
+.Zon {
+    width: 70%;
+    margin-top: 26%;
+    transition: 1.5s;
+}
+.Zon:hover {
+    transform:scale(1.1);
+}
+.Aud {
+    width: 60%;
+    margin-top: 9%;
+    transition: 1.5s;
+}
+.Aud:hover {
+    transform:scale(1.1);
+}
+.Twich {
+    width: 70%;
+    margin-top: 8%;
+    transition: 1.5s;
+}
+.Twich:hover {
+    transform:scale(1.1);
+}
+.video {
+    width: 90%;
+    margin-top: 9%;
+    transition: 1.5s;
+}
+.video:hover {
+    transform:scale(1.1);
+}
+.Bas {
+    font-size: 160%;
+    width: 100%;
+    height: 50%;
+    background: rgb(127,50,187);
+    background: linear-gradient(0deg, rgba(127,50,187,1) 20%, rgba(210,68,62,1) 87%);
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+}
+.Bas a{
+    text-decoration: none;
+    color: black;
+}
